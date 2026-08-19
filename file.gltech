@@ -1,0 +1,118 @@
+[MENUS]
+Menu1=VENDO
+Menu2=PISOTAB
+
+[VENDO]
+Items=AdoPisoft,JuanFi,Kitifi-MtBased,Kitifi-OpenWRT,LPB1.5,LPB2.0,PisoFi,TaraKifi-MiniPC,TaraKifi-OpenWRT,TaraKifi-OPI,Wifi5soft
+[PISOTAB]
+Items=JuanFi,PisonetX
+
+
+
+; Details for items under PISOTAB
+[PISOTAB_JuanFi]
+Node= ESP8266
+Version= 4.5
+Part=2
+Offseat=0x0000000, 0x200000
+Wireless=True
+LanBased=True
+
+[PISOTAB_PisonetX]
+Node= ESP32
+Version= 2.3.3
+Part=1
+Offseat=0x0000000
+Wireless=True
+LanBased=False
+
+; Details for items under VENDO
+[VENDO_Adopisoft]
+Node= ESP8266
+Version= 1.0.5
+Part=1
+Offseat=0x000000
+Wireless=True
+LanBased=False
+
+[VENDO_JuanFi]
+Node= ESP8266
+Version= 4.5
+Part=2
+Offseat=0x0000000, 0x200000
+Wireless=True
+LanBased=True
+
+[VENDO_Kitifi-MtBased]
+Node= ESP8266
+Version= 2.2
+Part=1
+Offseat=0x0000000
+Wireless=True
+LanBased=True
+
+[VENDO_Kitifi-Router]
+Node= ESP8266
+Version= 2.2
+Part=1
+Offseat=0x0000000
+Wireless=True
+LanBased=True
+
+[VENDO_LPB1.5]
+Node= ESP8266
+Version= 1.0.4
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=False
+
+[VENDO_LPB2.0]
+Node= ESP8266
+Version= 1.0.2
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=False
+
+
+[VENDO_PisoFi]
+Node= ESP8266
+Version= 4.5
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=False
+
+[VENDO_TaraKifi-MiniPC]
+Node= ESP8266
+Version= 1.81.3
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=True
+
+[VENDO_TaraKifi-OpenWRT]
+Node= ESP8266
+Version= 1.81.3
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=True
+
+[VENDO_TaraKifi-OPI]
+Node= ESP8266
+Version= 1.81.3
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=True
+
+[VENDO_Wifi5Soft]
+Node= ESP8266
+Version= 4.4
+Part=1
+Offseat=0x00000
+Wireless=True
+LanBased=False
+
